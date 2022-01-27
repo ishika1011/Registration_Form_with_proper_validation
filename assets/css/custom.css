@@ -1,0 +1,56 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #11121C;
+}
+
+.form {
+	width: 100%;
+	overflow: hidden;
+	color: white;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+}
+
+.submit-button {
+	background-color: #F87C58;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	height: 8%;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+}
+
+.input-filed {
+	background-color: #333647;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	width: 100%;
+	padding: 8px;
+}
+
+.error {
+	margin-top: 15px;
+	color: red;
+}
+
+.title-heading {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.file-ip-1-preview {
+	border: none;
+}
+
+img {
+	height: 40%;
+	width: 100%;
+	border: none;
+}

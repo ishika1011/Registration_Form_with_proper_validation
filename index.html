@@ -1,0 +1,96 @@
+<html>
+   <head>
+      <title>Task-7</title>
+      <link href="./assets/library/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+   </head>
+   <body>
+      <form class="form">
+         <h1 class="title-heading">Registration Form Validation</h1>
+         <div class="col-md-6">
+            <label for="name">First Name:</label>
+            <input type="text" id="nametxt" name="name" class="input-filed">         
+            <div class="nameerror error" id="nameerror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lnametxt" name="lname" class="input-filed">         
+            <div class="lnameerror error" id="lnameerror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="phonenumber">Phone number:</label>
+            <input type="text" id="value1"name="username" class="input-filed">         
+            <div class="phoneerror error" id="phoneerror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="emailid">Email Id:</label>
+            <input type="text" id="mailid" name="email" class="input-filed">         
+            <div class="mailerror error" id="mailerror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="url">Website URL:</label>
+            <input type="text" id="url" name="url" class="input-filed">         
+            <div class="urlerror error" id="urlerror"></div>
+            <br>        
+         </div>
+         <div class="col-md-6">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="0">Male</input>
+            <input type="radio" name="gender" value="1">Female</input><br>
+            <div class="generror error" id="generror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="add">Hobby:</label>
+            <select id="ddlView" class="input-filed">
+               <option value="0">Select</option>
+               <option value="1">Cricket</option>
+               <option value="2">Hockey</option>
+               <option value="3">Reading</option>
+               <option value="4">Dancing</option>
+               <option value="5">Singing</option>
+               <option value="6">Painting</option>
+            </select>
+            <div class="selectorerror error" id="selectorerror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <div class="preview">
+               <img id="file-ip-1-preview">
+            </div>
+            <label for="file">Choose photo:</label>
+            <input type="file" id="file" onchange="showPreview(event);" />
+            <div class="previewimage error" id="imagePreview"></div>
+            <br><br>
+         </div>
+         <div class="col-md-6">
+            <label for="add">Address:</label>
+            <textarea  type="text" id="add" name="add" class="input-filed"></textarea>
+            <div class="adderror error" id="adderror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="password">Password:</label>
+            <input type="password" id="pass" name="pass" class="input-filed">         
+            <div class="passerror error" id="passerror"></div>
+            <br>
+         </div>
+         <div class="col-md-6">
+            <label for="passcon">Confirm Password:</label>
+            <input type="password" id="passcon" name="passcon" class="input-filed">         
+            <div class="passconerror error" id="passconerror"></div>
+            <br>
+         </div>
+         <div class="col-md-12">
+            <button class="submit-button" type="button" onclick="myFunction()">Submit</button>
+         </div>
+      </form>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="./assets/library/jquery-3.6.0.min.js"></script>
+      <script src="./assets/js/main.js"></script>  
+   </body>
+</html>
